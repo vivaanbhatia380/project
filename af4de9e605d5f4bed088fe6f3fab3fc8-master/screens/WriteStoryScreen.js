@@ -14,7 +14,7 @@ export default class WriteStoryScreen extends React.Component {
             storyText: '',
         }
     }
-/*
+
     submitStory = ()=>{
         db.collection("stories").add({
             title: this.state.title,
@@ -28,7 +28,7 @@ export default class WriteStoryScreen extends React.Component {
             storyText: ''
         })
     }
-*/
+
     render(){
         return(
             <View style={styles.container}>
